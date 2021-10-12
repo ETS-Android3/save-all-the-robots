@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- This is the base layer image of the item-square.
+     This layer always has the image of a default square -->
+    <pis03_2016.savealltherobots.view.viewclass.SquareImageView
+        android:id="@+id/PictureBaseLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/level_square"
+        android:scaleType="centerCrop" />
+
+    <!-- This is the overlay layer image of the item-square.
+     This square can contain many types of player -->
+    <pis03_2016.savealltherobots.view.viewclass.SquareImageView
+        android:id="@+id/PictureOverlapLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <!-- This is the overlay effects layer image of the item-square.
+     This square can contain many types of player -->
+    <pis03_2016.savealltherobots.view.viewclass.GifImageView
+        android:id="@+id/PictureOverlapLayerEffect1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <!-- This is the overlay layer image of the item-square.
+     This square can contain many types of player -->
+    <pis03_2016.savealltherobots.view.viewclass.GifImageView
+        android:id="@+id/PictureOverlapLayerEffect2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <!-- This is the overlay layer image of the item-square.
+     This square can contain many types of player -->
+    <pis03_2016.savealltherobots.view.viewclass.GifImageView
+        android:id="@+id/PictureOverlapLayerEffect3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <!-- This is the overlay layer image of the item-square.
+     This square can contain many types of player -->
+    <pis03_2016.savealltherobots.view.viewclass.GifImageView
+        android:id="@+id/PictureOverlapLayerEffect4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <!-- This is the overlay layer image of the item-square.
+     This square can contain many types of player -->
+    <pis03_2016.savealltherobots.view.viewclass.GifImageView
+        android:id="@+id/PictureOverlapLayerEffect5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <!-- This is the overlay layer image of the item-square.
+     This square can contain many types of player -->
+    <pis03_2016.savealltherobots.view.viewclass.GifImageView
+        android:id="@+id/PictureOverlapLayerEffect6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+    <!-- This is the overlay layer image of the item-square.
+         This square can contain many types of player -->
+    <pis03_2016.savealltherobots.view.viewclass.GifImageView
+        android:id="@+id/PictureOverlapLayerEffect7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <!-- This is the overlay layer image of the item-square.
+     This square can contain many types of player -->
+    <pis03_2016.savealltherobots.view.viewclass.GifImageView
+        android:id="@+id/PictureOverlapLayerEffect8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <pis03_2016.savealltherobots.view.viewclass.GifImageView
+        android:id="@+id/PictureOverlapLayerRobotNormalExplosion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <pis03_2016.savealltherobots.view.viewclass.GifImageView
+        android:id="@+id/PictureOverlapLayerRobotExplosiveExplosion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <!-- This is the error layer image of the item-square.
+     I'm using setTimeOut(function) for destroy this layer -->
+    <pis03_2016.savealltherobots.view.viewclass.SquareImageView
+        android:id="@+id/PictureErrorLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ROBOT DESCRIPTIONS -->
+    <string name="description_robot">¡Este es el robot más débil, protégelo!</string>
+    <string name="description_robotSteel">¡Este robot resiste 1 golpe, puede actuar como escudo!</string>
+    <string name="description_robotGold">Este robot resiste 2 impactos, ¡y está hecho de oro!</string>
+    <string name="description_robotDiamond">¡Este robot resiste 3 golpes, es el más fuerte!</string>
+    <string name="description_robotExplosive">¡Este robot explota, dañando a los robots a su alrededor!</string>
+    <string name="description_robotRadio">¡Este robot desactivas las trampas que hay a su alrededor!</string>
+    <!--TRAP DESCRIPTIONS -->
+    <string name="description_trapPunchx1">¡Este puño ataca la casilla que tiene delante!</string>
+    <string name="description_trapFlameThrower">¡Este lanzallamas está preparado para derretir robots en cruz!</string>
+    <string name="description_trapLaserCannon">¡El rayo láser de este cañón tiene alcance infinito, pero puede ser bloqueado!</string>
+    <string name="description_trapSpikesCircle">¡Esta trampa ataca a su alrededor con descargas eléctricas!</string>
+    <string name="description_trapQuadrupleLaserCannon">¡Esta trampa combina 4 cañones láser!</string>
+
+    <string name="exit">Salir</string>
+    <string name="inventory_landscape_preference">Menú horizontal</string>
+    <string name="language_preference">Idioma</string>
+    <string name="music_preference">Música</string>
+    <string name="play">Jugar</string>
+    <string name="settings">Ajustes</string>
+    <string name="sound_effects_preference">Efectos sonoros</string>
+    <string name="inventory_portrait_preference">Menú vertical</string>
+    <string name="best_results">Mejores resultados:</string>
+    <string name="completedLevels">Niveles completados:</string>
+    <string name="score">Puntuación:</string>
+    <string name="savedRobots">Robots Salvados:</string>
+    <string name="loading">Cargando siguiente nivel…</string>
+    <string name="highscore">Récord:</string>
+    <string name="unlock">¡Nuevo ítem desbloqueado!</string>
+    <string name="allUnlocked">¡Felicidades! Todos los items desbloqueados… \n¿Podŕas superar el siguiente nivel?</string>
+    <string name="settingsLandscapeLeft">IZQ.</string>
+    <string name="settingsLandscapeRight">DER.</string>
+    <string name="settingsPortraitDown">ABAJO   </string>
+    <string name="settingsPortraitUp">ARRIBA   </string>
+    <string name="high_scores">Record</string>
+    <string name="welcomeDescription">¡Coloca todos los robots en las casillas antes de que el tiempo acabe, asegurándote que ninguno es atacado por más trampas de las que puede resistir!</string>
+    <string name="movementsDescription">Existen dos formas de posicionar los robots del inventorio: arrastrándolos o seleccionar  un tipo de robot para luego ir colocando robots de ese tipo al pulsar sobre casillas. </string>
+    <string name="next_level">Siguiente nivel</string>
+    <string name="developers">DESARROLLADORES</string>
+    <string name="goToNextLevel"><![CDATA[Accede al siguiente nivel >>]]></string>
+    <string name="allUnlockedTitle">¡Todo desbloqueado!</string>
+    <string name="quit_message">¿Seguro que quieres salir?</string>
+    <string name="no">No</string>
+    <string name="yes">Sí</string>
+    <string name="description_title">título</string>
+    <string name="menu">Menú</string>
+    <string name="title">tíulo</string>
+    <string name="try_again">Reintentar</string>
+</resources>

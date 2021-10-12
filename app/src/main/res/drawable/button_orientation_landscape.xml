@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Button Checked=True-->
+    <item android:drawable="@mipmap/ic_landscape_left" android:state_checked="true">
+
+    </item>
+
+    <!-- Button Checked=False-->
+    <item android:drawable="@mipmap/ic_landscape_right" android:state_checked="false">
+
+    </item>
+</selector>

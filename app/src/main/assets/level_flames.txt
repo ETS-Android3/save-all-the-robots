@@ -1,0 +1,16 @@
+--. --. --. --. --. ftN
+--. --. --. ftN --. --.
+--. ftN --. ##. --. --.
+--. --. --. --. --. --.
+--. --. --. --. --. ftN
+--. ##. --. ##. --. ftN
+--. --. ##. ftN ##. ##.
+ftN. --. --. ##. --. ##.
+
+95 s
+
+6 robot
+5 robot_steel
+4 robot_gold
+3 robot_diamond
+3 robot_explosive

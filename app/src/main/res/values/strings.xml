@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name" translatable="false">SaveAllTheRobots</string>
+
+    <!--ROBOT DESCRIPTIONS -->
+    <string name="description_robot">This is the weakest robot! Protect him!</string>
+    <string name="description_robotSteel">This robot resists 1 hit! It can act as a shield!</string>
+    <string name="description_robotGold">This robot resists 2 hits! And it\'s made of gold!</string>
+    <string name="description_robotDiamond">This robot resists 3 hits! It is strongest one!</string>
+    <string name="description_robotExplosive">This robot explodes, damaging robots surrounding it!</string>
+    <string name="description_robotRadio">This robot deactivates the traps surrounding it!</string>
+    <!--TRAP DESCRIPTIONS -->
+    <string name="description_trapPunchx1">This fist attacks the square in front of it!</string>
+    <string name="description_trapFlameThrower">This cross-shaped flame-thrower is ready to melt robots!</string>
+    <string name="description_trapLaserCannon">The laser beam of this has infinite scope, but can be blocked!</string>
+    <string name="description_trapSpikesCircle">This trap attacks the surrounding squares with an electrical discharge!</string>
+    <string name="description_trapQuadrupleLaserCannon"> This trap is the combination of 4 laser cannons!</string>
+    <!--MAIN ACTIVITY-->
+    <string name="play">Play</string>
+    <string name="high_scores">Highscores</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <!--SETTINGS ACTIVITY-->
+    <string name="music_preference">Music</string>
+    <string name="sound_effects_preference">Sound effects</string>
+    <string name="inventory_portrait_preference">Portrait inventory</string>
+    <string name="inventory_landscape_preference">Landscape inventory</string>
+    <string name="language_preference">Language</string>
+    <string name="savedRobots">Saved Robots:</string>
+    <string name="completedLevels">Completed levels:</string>
+    <string name="highscore">Highscore:</string>
+    <string name="best_results">Best results:</string>
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Español</item>
+        <item>Català</item>
+    </string-array>
+    <string name="settingsPortraitUp">UP</string>
+    <string name="settingsPortraitDown">DOWN</string>
+    <string name="settingsLandscapeLeft">LEFT</string>
+    <string name="settingsLandscapeRight">RIGHT</string>
+    <!--GAME OVER ACTIVITY-->
+    <string name="score">Score:</string>
+    <!--SCORE SCREEN ACTIVITY-->
+    <string name="allUnlocked">¡Congratulations! Everything unlocked… \n¿Will you pass next level?</string>
+    <string name="allUnlockedTitle">¡Everything unlocked!</string>
+    <string name="loading">Loading next level…</string>
+    <string name="unlock">New item unlocked!</string>
+    <string name="next_level">Next Level</string>
+    <!--WELCOME DESCRIPTION-->
+    <string name="welcomeDescription">Place all the robots into the squares before the time ends, ensuring that none of them is attacked by more traps than it can resist!</string>
+    <string name="movementsDescription">There are two ways to place the robots from the inventory: drag and drop them or click to select a robot type and then place robots of that type clicking on squares. Use the green button when you finnish if you want to rush to the next level!</string>
+    <!--CREDITS ACTIVITY-->
+    <string name="developers">DEVELOPERS</string>
+    <string name="developer_albert_espin" translatable="false">Albert Espín</string>
+    <string name="developer_guillem_casassas" translatable="false">Guillem Casassas</string>
+    <string name="developer_pau_sanchez" translatable="false">Pau Sanchez</string>
+    <string name="developer_javier_anton" translatable="false">Javier Antón</string>
+    <string name="goToNextLevel"><![CDATA[Go to next level  >>]]></string>
+    <string name="quit_message">Are you sure you want to quit?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="title">title</string>
+    <string name="description_title">title</string>
+    <string name="menu">Menu</string>
+    <string name="try_again">Try Again</string>
+
+</resources>

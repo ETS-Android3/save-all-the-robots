@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ROBOT DESCRIPTIONS -->
+    <string name="description_robot">Aquest és el robot més feble, protegeix-lo!</string>
+    <string name="description_robotSteel">Aquest robot resisteix un cop; pot actuar com un escut!</string>
+    <string name="description_robotGold">Aquest robot resisteix dos impactes, i és tot or!</string>
+    <string name="description_robotDiamond">Aquest robot resisteix tres impactes, és el més fort!</string>
+    <string name="description_robotExplosive">Aquest robot explota, ferint els robots del seu voltant!</string>
+    <string name="description_robotRadio">Aquest robot desactiva les trampes del seu voltant!</string>
+    <!--TRAP DESCRIPTIONS -->
+    <string name="description_trapPunchx1">Aquest puny ataca la casella que té davant!</string>
+    <string name="description_trapFlameThrower">Aquest llançaflames està preparat per derretir robots en creu!</string>
+    <string name="description_trapLaserCannon">El raig làser del canó té abast infinit, però pot ser bloquejat!</string>
+    <string name="description_trapSpikesCircle">Aquesta trampa ataca el seu voltant amb descàrregues elèctriques!</string>
+    <string name="description_trapQuadrupleLaserCannon">Aquesta trampa combina 4 canons làser!</string>
+
+    <string name="best_results">Millors resultats:</string>
+    <string name="completedLevels">Nivells completats</string>
+    <string name="exit">Sortir</string>
+    <string name="highscore">Récord:</string>
+    <string name="inventory_landscape_preference">Menú horizontal</string>
+    <string name="language_preference">Idioma</string>
+    <string name="loading">Carregant el següent nivell…</string>
+    <string name="savedRobots">Robots Salvats:</string>
+    <string name="score">Puntuació:</string>
+    <string name="settings">Preferències</string>
+    <string name="sound_effects_preference">Efectes sonors</string>
+    <string name="unlock">Nou item desbloquejat!</string>
+    <string name="inventory_portrait_preference">Menú vertical</string>
+    <string name="music_preference">Música</string>
+    <string name="play">Jugar</string>
+    <string name="allUnlocked">Felicitats! Tots els items desbloquejats… \nPodràs passar-te el següent nivell?</string>
+    <string name="high_scores">Record</string>
+    <string name="settingsLandscapeLeft">ESQ.</string>
+    <string name="settingsLandscapeRight">DRETA</string>
+    <string name="settingsPortraitDown">ABAIX</string>
+    <string name="settingsPortraitUp">A DALT</string>
+    <string name="welcomeDescription">Col·loca tots els robots a les caselles abans que acabi el temps, assegurant-te que cap d\'ells és atacat per més trampes que les que pot resistir!</string>
+    <string name="next_level">Següent nivell</string>
+    <string name="developers">DESENVOLUPADORS</string>
+    <string name="movementsDescription">Hi ha dues formes de positionar els robots de l\'inventari: arrossegant-los o clicant per seleccionar un tipus de robot i posteriorment anar clicant caselles per col·locar-hi robots d\'aquest tipus.</string>
+    <string name="goToNextLevel"><![CDATA[Accedeix al següent nivell >>]]></string>
+    <string name="allUnlockedTitle">Tot desbloquejat!</string>
+    <string name="quit_message">Segur que vols sortir?</string>
+    <string name="no">No</string>
+    <string name="yes">Sí</string>
+    <string name="description_title">títol</string>
+    <string name="menu">Menú</string>
+    <string name="title">títol</string>
+    <string name="try_again">Tornar a intentar</string>
+</resources>

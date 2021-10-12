@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pages"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor"
+        android:fillViewport="true"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="70dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/title"
+                android:src="@drawable/title" />
+
+
+            <pis03_2016.savealltherobots.view.viewclass.TypeFaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="9.0"
+                android:text="@string/welcomeDescription"
+                android:textColor="#FFD700"
+                android:textSize="14sp" />
+
+            <pis03_2016.savealltherobots.view.viewclass.TypeFaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="9.0"
+                android:text="@string/movementsDescription"
+                android:textColor="#FFD700"
+                android:textSize="14sp" />
+
+            <pis03_2016.savealltherobots.view.viewclass.GifImageView
+                android:id="@+id/tutorialGif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#000"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/constructNextLevelLoaderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="14dp"
+            android:gravity="center"
+            android:text="Loading game"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_main"
+            android:onClick="playNow"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Play now!"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

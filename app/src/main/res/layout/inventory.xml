@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Inventary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_inventary"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/TimeLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:minWidth="60dp"
+        android:shadowColor="#666"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="9.0"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/done"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/done"
+        android:visibility="gone" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/cell_robot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:tag="cell_robot"
+                android:visibility="gone">
+
+                <!-- android:background="@drawable/bg_inventary_selected" -->
+                <FrameLayout
+                    android:id="@+id/light_robot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="1px">
+
+                    <pis03_2016.savealltherobots.view.viewclass.SquareImageView
+                        android:id="@+id/Robot"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/robot"
+                        android:onClick="selectRobotFromInventary"
+                        android:tag="Robot" />
+
+                    <ImageView
+                        android:id="@+id/bg_robot"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/num_robot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-4dp"
+                    android:gravity="center"
+                    android:textColor="#EEEEEE"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/cell_robot_steel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:tag="cell_robot_steel"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:id="@+id/light_robot_steel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="1px">
+
+                    <pis03_2016.savealltherobots.view.viewclass.SquareImageView
+                        android:id="@+id/Robot_Steel"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/robot_steel"
+                        android:onClick="selectRobotFromInventary"
+                        android:tag="Robot_Steel" />
+
+                    <ImageView
+                        android:id="@+id/bg_robot_steel"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/num_robot_steel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-4dp"
+                    android:gravity="center"
+                    android:textColor="#EEEEEE"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/cell_robot_gold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:tag="cell_robot_gold"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:id="@+id/light_robot_gold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="1px">
+
+                    <pis03_2016.savealltherobots.view.viewclass.SquareImageView
+                        android:id="@+id/Robot_Gold"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/robot_gold"
+                        android:onClick="selectRobotFromInventary"
+                        android:tag="Robot_Gold" />
+
+                    <ImageView
+                        android:id="@+id/bg_robot_gold"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/num_robot_gold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-4dp"
+                    android:gravity="center"
+                    android:textColor="#EEEEEE"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cell_robot_diamond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:tag="cell_robot_diamond"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:id="@+id/light_robot_diamond"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="1px">
+
+                    <pis03_2016.savealltherobots.view.viewclass.SquareImageView
+                        android:id="@+id/Robot_Diamond"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/robot_diamond"
+                        android:onClick="selectRobotFromInventary"
+                        android:tag="Robot_Diamond" />
+
+                    <ImageView
+                        android:id="@+id/bg_robot_diamond"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/num_robot_diamond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-4dp"
+                    android:gravity="center"
+                    android:textColor="#EEEEEE"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/cell_robot_deactivator_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:tag="cell_robot_deactivator_radio"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:id="@+id/light_robot_deactivator_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="1px">
+
+                    <pis03_2016.savealltherobots.view.viewclass.SquareImageView
+                        android:id="@+id/Robot_Deactivator_Radio"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/robot_deactivator_radio"
+                        android:onClick="selectRobotFromInventary"
+                        android:tag="Robot_Deactivator_Radio" />
+
+                    <ImageView
+                        android:id="@+id/bg_robot_deactivator_radio"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/num_robot_deactivator_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-4dp"
+                    android:gravity="center"
+                    android:textColor="#EEEEEE"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cell_robot_explosive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:tag="cell_robot_explosive"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:id="@+id/light_robot_explosive"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="1px">
+
+                    <pis03_2016.savealltherobots.view.viewclass.SquareImageView
+                        android:id="@+id/Robot_Explosive"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/robot_explosive"
+                        android:onClick="selectRobotFromInventary"
+                        android:tag="Robot_Explosive" />
+
+                    <ImageView
+                        android:id="@+id/bg_robot_explosive"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/num_robot_explosive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-4dp"
+                    android:gravity="center"
+                    android:textColor="#EEEEEE"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pages">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/title" />
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <pis03_2016.savealltherobots.view.viewclass.TypeFaceTextView
+                        android:id="@+id/best_results"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:paddingLeft="15dp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="10"
+                        android:shadowDy="10"
+                        android:shadowRadius="9.0"
+                        android:text="@string/best_results"
+                        android:textColor="#FFD700"
+                        android:textSize="38dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp">
+
+                    <pis03_2016.savealltherobots.view.viewclass.TypeFaceTextView
+                        android:id="@+id/txtHighscoreHS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:paddingLeft="15dp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="10"
+                        android:shadowDy="10"
+                        android:shadowRadius="9.0"
+                        android:text="@string/highscore"
+                        android:textColor="#FFD700"
+                        android:textSize="27dp" />
+
+                    <pis03_2016.savealltherobots.view.viewclass.TypeFaceTextView
+                        android:id="@+id/txtVarHighscoreHS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:paddingLeft="15dp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="10"
+                        android:shadowDy="10"
+                        android:shadowRadius="9.0"
+                        android:text="0000"
+                        android:textColor="#DBA901"
+                        android:textSize="30dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <pis03_2016.savealltherobots.view.viewclass.TypeFaceTextView
+                        android:id="@+id/txtSavedRobotsHS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:paddingLeft="15dp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="10"
+                        android:shadowDy="10"
+                        android:shadowRadius="9.0"
+                        android:text="@string/savedRobots"
+                        android:textColor="#FFD700"
+                        android:textSize="27dp" />
+
+                    <pis03_2016.savealltherobots.view.viewclass.TypeFaceTextView
+                        android:id="@+id/txtVarSavedRobotsHS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:paddingLeft="15dp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="10"
+                        android:shadowDy="10"
+                        android:shadowRadius="9.0"
+                        android:text="0000"
+                        android:textColor="#DBA901"
+                        android:textSize="30dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <pis03_2016.savealltherobots.view.viewclass.TypeFaceTextView
+                        android:id="@+id/txtCompletedLevelsHS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:paddingLeft="15dp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="10"
+                        android:shadowDy="10"
+                        android:shadowRadius="9.0"
+                        android:text="@string/completedLevels"
+                        android:textColor="#FFD700"
+                        android:textSize="27dp" />
+
+                    <pis03_2016.savealltherobots.view.viewclass.TypeFaceTextView
+                        android:id="@+id/txtVarCompletedLevelsHS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:paddingLeft="15dp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="10"
+                        android:shadowDy="10"
+                        android:shadowRadius="9.0"
+                        android:text="0000"
+                        android:textColor="#DBA901"
+                        android:textSize="30dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/robot_diamond" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

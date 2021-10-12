@@ -1,0 +1,17 @@
+--. --. --. --. --. lcL
+--. --. --. f1R --. --.
+--. scN --. ##. --. lcD
+--. --. --. --. --. --.
+--. --. --. ftN --. --.
+--. ##. --. --. --. --.
+lcU --. f1U f1D ##. ##.
+--. f1R --. --. --. ##.
+
+10 s
+
+11 robot
+2 robot_steel
+3 robot_gold
+1 robot_deactivator_radio
+2 robot_explosive
+2 robot_diamond
